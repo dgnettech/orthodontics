@@ -1,36 +1,135 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nel Orthodontics Website
 
-## Getting Started
+Premium, modern orthodontic website for **Nel Orthodontics** in Rynfield, Benoni. Built with Next.js App Router, TypeScript, Tailwind CSS, Framer Motion, React Hook Form, Zod, shadcn-style UI primitives and optional Supabase form persistence.
 
-First, run the development server:
+## Design concept
+
+A warm, high-end medical website: soft whites, dental blues, rounded cards, subtle gradients, confident typography, smooth scroll/page animations and reassuring copy for parents, teens and adults.
+
+## Sitemap
+
+- `/` — Home
+- `/about` — About Us
+- `/treatments` — Treatments
+- `/first-appointment` — First Appointment
+- `/smile-gallery` — Smile Gallery
+- `/patient-information` — Patient Information / FAQ
+- `/contact` — Contact Us
+- `/book-appointment` — Book Appointment
+
+## Key features
+
+- Mobile-first responsive navigation
+- Sticky/floating call, email and booking actions
+- Smooth page transitions and scroll reveal animations
+- Interactive treatment cards
+- Smile journey stepper
+- FAQ accordion
+- Before/after comparison slider
+- Contact and appointment forms with React Hook Form + Zod validation
+- Supabase-ready API routes for form persistence
+- Google Maps embed for 93 Pretoria Road, Rynfield, Benoni
+- SEO metadata, robots and sitemap
+- Clearly named placeholder assets in `public/placeholders/`
+
+## Tech stack
+
+- Next.js 16 App Router
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- Framer Motion
+- React Hook Form + Zod
+- Supabase JS client
+- shadcn-style component primitives using Radix Slot / Accordion
+- Vercel-ready deployment
+
+## Local setup
 
 ```bash
+npm install
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open <http://localhost:3000>.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Supabase is used only for appointment/contact form persistence. The site builds without these variables, but form submissions will show a setup message until they are configured.
 
-## Learn More
+```bash
+NEXT_PUBLIC_SUPABASE_URL=https://your-project-ref.supabase.co
+SUPABASE_SERVICE_ROLE_KEY=your-server-only-service-role-key
+```
 
-To learn more about Next.js, take a look at the following resources:
+> Keep `SUPABASE_SERVICE_ROLE_KEY` server-only. Do not expose it as `NEXT_PUBLIC_*`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Supabase setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Create a Supabase project.
+2. Open the SQL editor.
+3. Run `supabase/schema.sql`.
+4. Add the environment variables above in `.env.local` and in Vercel Project Settings.
+5. Redeploy.
 
-## Deploy on Vercel
+Tables created:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `appointment_requests`
+- `contact_messages`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Both tables include `status`, `source`, `internal_notes`, `created_at` and `updated_at` so they are ready for a future admin panel.
+
+## Placeholder images
+
+All placeholder visuals are SVGs under:
+
+```text
+public/placeholders/
+```
+
+Replace these with approved practice/patient photography when available:
+
+- `hero-orthodontic-visual.svg`
+- `dr-wally-nel-portrait-placeholder.svg`
+- `smile-before-01-placeholder.svg`
+- `smile-after-01-placeholder.svg`
+- `team-gallery-placeholder.svg`
+- `diagnostic-xray-placeholder.svg`
+- `laboratory-placeholder.svg`
+
+## Validation and build
+
+```bash
+npm run lint
+npm run build
+```
+
+## Deploy to Vercel
+
+### Option A: Vercel Dashboard
+
+1. Push this repository to GitHub/GitLab/Bitbucket.
+2. Import the project in Vercel.
+3. Framework preset: **Next.js**.
+4. Build command: `npm run build`.
+5. Output directory: leave default.
+6. Add Supabase env vars if form persistence is required.
+7. Deploy.
+
+### Option B: Vercel CLI
+
+```bash
+npm i -g vercel
+vercel login
+vercel --prod
+```
+
+## Business details used
+
+- Practice: Nel Orthodontics
+- Orthodontist: Dr Wally Nel
+- Address: 93 Pretoria Road, Rynfield, Benoni, South Africa
+- Phone: +27 11 425 0773
+- Email: benoni@orthodontics.co.za
+- Services: braces, early preventative orthodontics, diagnostic orthodontic dental X-rays, first appointments, treatment planning and orthodontic evaluations

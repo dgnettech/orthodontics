@@ -1,0 +1,15 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Orthodontic consultation illustration placeholder</title><desc id="desc">Placeholder artwork — replace with approved Nel Orthodontics photography.</desc>
+<rect width="900" height="900" rx="80" fill="url(#bg)"/>
+<circle cx="700" cy="170" r="130" fill="#BAE6FD" opacity="0.7"/>
+<circle cx="180" cy="720" r="170" fill="#CFFAFE" opacity="0.75"/>
+<rect x="145" y="210" width="610" height="460" rx="56" fill="white" opacity="0.92"/>
+<path d="M284 398c31 73 92 118 166 118s135-45 166-118" stroke="#0284C7" stroke-width="28" stroke-linecap="round"/>
+<circle cx="333" cy="340" r="30" fill="#0F172A"/><circle cx="566" cy="340" r="30" fill="#0F172A"/>
+<path d="M301 413h299" stroke="#E0F2FE" stroke-width="22" stroke-linecap="round"/>
+<path d="M335 430h230" stroke="#38BDF8" stroke-width="10" stroke-linecap="round" stroke-dasharray="8 18"/>
+<rect x="205" y="595" width="490" height="90" rx="45" fill="#0EA5E9"/>
+<text x="450" y="648" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="white">Nel Orthodontics visual</text>
+<text x="450" y="720" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#0369A1">Replace: hero-orthodontic-visual.svg</text>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="900" y2="900"><stop stop-color="#F0F9FF"/><stop offset="0.55" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E0F2FE"/></linearGradient></defs>
+</svg>

@@ -1,0 +1,9 @@
+<svg width="900" height="675" viewBox="0 0 900 675" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Orthodontic laboratory placeholder</title><desc id="desc">Placeholder artwork — replace with approved Nel Orthodontics photography.</desc>
+<rect width="900" height="675" rx="42" fill="#F8FAFC"/>
+<rect x="145" y="150" width="610" height="315" rx="42" fill="#E0F2FE"/>
+<path d="M265 320h370" stroke="#0EA5E9" stroke-width="30" stroke-linecap="round"/>
+<path d="M340 260v120M450 240v150M560 260v120" stroke="#0284C7" stroke-width="18" stroke-linecap="round"/>
+<circle cx="260" cy="220" r="40" fill="#BAE6FD"/><circle cx="640" cy="220" r="40" fill="#BAE6FD"/>
+<text x="450" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0369A1">Laboratory support placeholder</text>
+</svg>
