@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { business } from "@/lib/site";
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -6,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://nel-orthodontics.vercel.app/sitemap.xml",
+    sitemap: `${business.siteUrl}/sitemap.xml`,
   };
 }

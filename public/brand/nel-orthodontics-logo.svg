@@ -1,0 +1,17 @@
+<svg width="560" height="128" viewBox="0 0 560 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nel Orthodontics logo</title>
+  <desc id="desc">Nel Orthodontics wordmark with dental-blue brand mark.</desc>
+  <rect width="128" height="128" rx="32" fill="url(#bg)"/>
+  <path d="M39 36c7-8 17-12 25-5 8-7 18-3 25 5 11 13 7 36-3 53-5 9-12 17-18 17-4 0-5-10-5-23 0-7-2-12-5-12s-5 5-5 12c0 13-1 23-5 23-6 0-13-8-18-17-10-17-14-40-3-53Z" fill="white"/>
+  <path d="M38 66c10 16 42 22 59 2" stroke="#0284C7" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="90" cy="37" r="8" fill="#BAE6FD"/>
+  <text x="154" y="59" font-family="Plus Jakarta Sans, Inter, Arial, sans-serif" font-size="36" font-weight="800" fill="#0F172A" letter-spacing="-1.4">Nel Orthodontics</text>
+  <text x="156" y="90" font-family="Plus Jakarta Sans, Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#0284C7" letter-spacing="3.3">SPECIALIST CARE IN BENONI</text>
+  <defs>
+    <linearGradient id="bg" x1="18" y1="11" x2="111" y2="119" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.52" stop-color="#0284C7"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+</svg>

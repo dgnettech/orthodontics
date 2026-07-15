@@ -23,14 +23,14 @@ export default function AboutPage() {
               Nel Orthodontics brings together specialist orthodontic expertise, qualified oral hygienists, administrative care and laboratory support to make treatment feel organised, reassuring and personal.
             </p>
           </div>
-          <Image src="/placeholders/team-gallery-placeholder.svg" alt="Nel Orthodontics team placeholder" width={820} height={620} className="rounded-[2.2rem] border border-slate-200 bg-sky-50 shadow-2xl shadow-sky-950/10" />
+          <Image src="/placeholders/team-gallery-placeholder.svg" alt="Nel Orthodontics care team illustration" width={820} height={620} className="rounded-[2.2rem] border border-slate-200 bg-sky-50 shadow-2xl shadow-sky-950/10" />
         </div>
       </section>
 
       <MotionSection>
         <div className="container-shell grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
           <div className="sticky top-28 hidden lg:block">
-            <Image src="/placeholders/dr-wally-nel-portrait-placeholder.svg" alt="Dr Wally Nel portrait placeholder" width={620} height={760} className="rounded-[2.2rem] border border-slate-200 bg-white shadow-2xl shadow-sky-950/10" />
+            <Image src="/placeholders/dr-wally-nel-portrait-placeholder.svg" alt="Dr Wally Nel portrait illustration" width={620} height={760} className="rounded-[2.2rem] border border-slate-200 bg-white shadow-2xl shadow-sky-950/10" />
           </div>
           <div>
             <SectionHeader align="left" eyebrow="Orthodontist" title="Dr Wally Nel" copy="Dr Wally Nel studied at the University of Pretoria and has dedicated his career to orthodontics, education and patient-focused smile transformation." />

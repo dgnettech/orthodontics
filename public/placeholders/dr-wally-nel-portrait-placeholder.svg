@@ -1,11 +1,11 @@
 <svg width="760" height="640" viewBox="0 0 760 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-<title id="title">Dr Wally Nel portrait placeholder</title><desc id="desc">Placeholder artwork — replace with approved Nel Orthodontics photography.</desc>
+<title id="title">Dr Wally Nel portrait illustration</title><desc id="desc">Illustrative artwork for the Nel Orthodontics website; replace with approved photography when available.</desc>
 <rect width="760" height="640" rx="48" fill="url(#bg)"/>
 <circle cx="380" cy="210" r="92" fill="#BAE6FD"/>
 <path d="M220 545c22-120 96-190 160-190s138 70 160 190" fill="#0EA5E9" opacity="0.88"/>
 <path d="M260 252c60 78 180 78 240 0" stroke="white" stroke-width="18" stroke-linecap="round" opacity="0.9"/>
 <rect x="120" y="486" width="520" height="92" rx="32" fill="white" opacity="0.92"/>
 <text x="380" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#0F172A">Dr Wally Nel</text>
-<text x="380" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0369A1">Portrait placeholder: replace this SVG</text>
+<text x="380" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0369A1">Specialist orthodontist</text>
 <defs><linearGradient id="bg" x1="0" y1="0" x2="760" y2="640"><stop stop-color="#EFF6FF"/><stop offset="1" stop-color="#CFFAFE"/></linearGradient></defs>
 </svg>

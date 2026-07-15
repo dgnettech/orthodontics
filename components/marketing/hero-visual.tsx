@@ -26,7 +26,7 @@ export function HeroVisual() {
         <div className="hero-grid rounded-[1.8rem] bg-white/70 p-5">
           <Image
             src="/placeholders/hero-orthodontic-visual.svg"
-            alt="Friendly orthodontic consultation illustration placeholder"
+            alt="Friendly orthodontic consultation illustration"
             width={720}
             height={720}
             priority

@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Menu, Phone, Smile, X } from "lucide-react";
+import { Menu, Phone, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { business, navItems } from "@/lib/site";
@@ -16,8 +17,8 @@ export function Navbar() {
     <header className="sticky top-0 z-50 border-b border-slate-200/70 bg-white/82 backdrop-blur-xl">
       <div className="container-shell flex h-20 items-center justify-between gap-4">
         <Link href="/" className="group flex items-center gap-3" aria-label="Nel Orthodontics home">
-          <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-sky-500 to-cyan-400 text-white shadow-lg shadow-sky-500/25">
-            <Smile className="h-6 w-6" />
+          <span className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-2xl shadow-lg shadow-sky-500/25">
+            <Image src="/brand/nel-orthodontics-mark.svg" alt="" width={44} height={44} priority className="h-11 w-11" />
           </span>
           <span className="leading-tight">
             <span className="block text-base font-black tracking-tight text-slate-950">Nel Orthodontics</span>

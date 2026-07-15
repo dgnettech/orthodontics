@@ -1,9 +1,9 @@
 <svg width="900" height="675" viewBox="0 0 900 675" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-<title id="title">Diagnostic X-ray placeholder</title><desc id="desc">Placeholder artwork — replace with approved Nel Orthodontics photography.</desc>
+<title id="title">Diagnostic X-ray illustration</title><desc id="desc">Illustrative diagnostic-imaging artwork for the Nel Orthodontics website; replace with approved photography when available.</desc>
 <rect width="900" height="675" rx="42" fill="#0F172A"/>
 <rect x="115" y="90" width="670" height="430" rx="34" fill="#E0F2FE" opacity="0.92"/>
 <path d="M240 250c120-96 300-96 420 0" stroke="#0284C7" stroke-width="20" stroke-linecap="round" opacity="0.85"/>
 <path d="M255 305c105 75 285 75 390 0" stroke="#0369A1" stroke-width="16" stroke-linecap="round" opacity="0.9"/>
 <path d="M300 380h300" stroke="white" stroke-width="32" stroke-linecap="round" stroke-dasharray="28 18"/>
-<text x="450" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#BAE6FD">Diagnostic imaging placeholder</text>
+<text x="450" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#BAE6FD">Diagnostic imaging</text>
 </svg>

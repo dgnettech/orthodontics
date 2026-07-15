@@ -1,9 +1,9 @@
 <svg width="900" height="675" viewBox="0 0 900 675" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-<title id="title">After smile placeholder</title><desc id="desc">Placeholder artwork — replace with approved Nel Orthodontics photography.</desc>
+<title id="title">After smile illustration</title><desc id="desc">Illustrative after-treatment artwork for the Nel Orthodontics website; replace with approved photography when available.</desc>
 <rect width="900" height="675" fill="#ECFEFF"/>
 <rect x="80" y="90" width="740" height="430" rx="50" fill="#BAE6FD"/>
 <path d="M230 300c70 110 370 110 440 0" stroke="#0284C7" stroke-width="34" stroke-linecap="round"/>
 <path d="M305 330h290" stroke="white" stroke-width="46" stroke-linecap="round" stroke-dasharray="48 12"/>
 <path d="M300 405c82 70 218 78 300 0" stroke="#0EA5E9" stroke-width="16" stroke-linecap="round" opacity="0.7"/>
-<text x="450" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0369A1">After placeholder</text>
+<text x="450" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0369A1">After treatment preview</text>
 </svg>

@@ -20,7 +20,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nel-orthodontics.vercel.app"),
+  metadataBase: new URL(business.siteUrl),
   title: {
     default: "Nel Orthodontics | Orthodontist in Benoni",
     template: "%s | Nel Orthodontics",
@@ -38,10 +38,29 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nel Orthodontics | Orthodontist in Benoni",
     description: "Warm, professional orthodontic care for children, teens and adults in Rynfield, Benoni.",
-    url: "https://nel-orthodontics.vercel.app",
+    url: business.siteUrl,
     siteName: "Nel Orthodontics",
+    images: [
+      {
+        url: "/brand/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Nel Orthodontics — premium orthodontic care in Benoni",
+      },
+    ],
     locale: "en_ZA",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nel Orthodontics | Orthodontist in Benoni",
+    description: "Warm, professional orthodontic care for children, teens and adults in Rynfield, Benoni.",
+    images: ["/brand/og-image.svg"],
+  },
+  icons: {
+    icon: "/brand/favicon.svg",
+    shortcut: "/brand/favicon.svg",
+    apple: "/brand/nel-orthodontics-mark.svg",
   },
   robots: {
     index: true,
@@ -64,7 +83,7 @@ const jsonLd = {
   },
   telephone: business.phone,
   email: business.email,
-  url: "https://nel-orthodontics.vercel.app",
+  url: business.siteUrl,
   openingHoursSpecification: business.hours.map((item) => ({
     "@type": "OpeningHoursSpecification",
     dayOfWeek: item.days,

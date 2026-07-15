@@ -116,7 +116,7 @@ export default function Home() {
             <Button asChild className="mt-8" variant="secondary"><Link href="/about">Meet the team</Link></Button>
           </div>
           <div className="relative overflow-hidden rounded-[2.3rem] border border-slate-200 bg-sky-50 p-4 shadow-2xl shadow-sky-950/10">
-            <Image src="/placeholders/dr-wally-nel-portrait-placeholder.svg" alt="Dr Wally Nel portrait placeholder" width={760} height={640} className="h-auto w-full rounded-[1.8rem]" />
+            <Image src="/placeholders/dr-wally-nel-portrait-placeholder.svg" alt="Dr Wally Nel portrait illustration" width={760} height={640} className="h-auto w-full rounded-[1.8rem]" />
           </div>
         </div>
       </MotionSection>
@@ -128,7 +128,7 @@ export default function Home() {
               align="left"
               eyebrow="Smile gallery"
               title="A preview of transformation-focused care."
-              copy="Use the before/after slider as a placeholder-ready gallery module. Replace the named SVG assets with approved clinical photography when available."
+              copy="The before/after-ready gallery experience is designed for approved clinical photography once patient consented images are available."
             />
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
               {galleryItems.slice(1, 3).map((item) => (

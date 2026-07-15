@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Mail, MapPin, Phone, Smile } from "lucide-react";
+import Image from "next/image";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { business, navItems } from "@/lib/site";
 
@@ -9,8 +10,8 @@ export function Footer() {
       <div className="container-shell grid gap-10 py-14 lg:grid-cols-[1.2fr_0.8fr_0.8fr]">
         <div>
           <div className="flex items-center gap-3">
-            <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-sky-500 text-white">
-              <Smile className="h-6 w-6" />
+            <span className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl">
+              <Image src="/brand/nel-orthodontics-mark.svg" alt="" width={48} height={48} className="h-12 w-12" />
             </span>
             <div>
               <p className="text-lg font-black">Nel Orthodontics</p>

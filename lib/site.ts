@@ -1,5 +1,6 @@
 export const business = {
   name: "Nel Orthodontics",
+  siteUrl: "https://orthodontics-phi.vercel.app",
   doctor: "Dr Wally Nel",
   address: "93 Pretoria Road, Rynfield, Benoni, South Africa",
   addressLines: ["93 Pretoria Road", "Rynfield, Benoni", "South Africa"],
@@ -164,22 +165,22 @@ export const galleryItems = [
   {
     title: "Smile transformation preview",
     image: "/placeholders/smile-after-01-placeholder.svg",
-    category: "Before / after placeholder",
+    category: "Smile journey preview",
   },
   {
     title: "Welcoming orthodontic team",
     image: "/placeholders/team-gallery-placeholder.svg",
-    category: "Team photo placeholder",
+    category: "Care team",
   },
   {
     title: "Diagnostic imaging",
     image: "/placeholders/diagnostic-xray-placeholder.svg",
-    category: "Clinical image placeholder",
+    category: "Clinical records",
   },
   {
     title: "Orthodontic laboratory support",
     image: "/placeholders/laboratory-placeholder.svg",
-    category: "Lab image placeholder",
+    category: "Laboratory support",
   },
 ];
 
