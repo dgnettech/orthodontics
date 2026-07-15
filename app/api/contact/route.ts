@@ -30,6 +30,12 @@ export async function POST(request: Request) {
   });
 
   if (error) {
+    console.error("contact_messages insert failed", {
+      code: error.code,
+      message: error.message,
+      details: error.details,
+      hint: error.hint,
+    });
     return NextResponse.json({ error: "We could not save the message. Please call or email the practice directly." }, { status: 500 });
   }
 
